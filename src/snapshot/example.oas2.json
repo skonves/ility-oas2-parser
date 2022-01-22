@@ -3,7 +3,7 @@
   "info": {
     "description": "Example schema to exercise all parser functionality",
     "version": "1.2.3-rc4",
-    "title": "asdf Ility Example"
+    "title": "Ility Example"
   },
   "parameters": {
     "search": {
