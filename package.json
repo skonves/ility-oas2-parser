@@ -12,6 +12,7 @@
     "start": "node ./lib/index.js",
     "prebuild": "run-s -s clean lint",
     "build": "tsc",
+    "prepack": "run-s -s build",
     "lint:eslint": "eslint src/**/*.*",
     "fix:eslint": "eslint --fix src/**/*.*",
     "lint:prettier": "prettier -c .",
