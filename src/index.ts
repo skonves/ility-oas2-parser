@@ -1,7 +1,7 @@
-export function reverseString(forward: string): string {
-  if (!forward) return forward;
+import { Service } from 'ility/lib/types';
 
-  return forward.split('').reverse().join('');
+import { OAS2Parser } from './parser';
+
+export default function parse(input: string): Service {
+  return new OAS2Parser(JSON.parse(input)).parse();
 }
-
-console.log('This is the example typescript application!');
