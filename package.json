@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "description": "Base project for creating a console application in Typescript",
   "main": "./lib/index.js",
+  "private": false,
   "scripts": {
     "test": "jest",
     "clean": "run-s -s clean:*",
